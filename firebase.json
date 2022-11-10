@@ -1,0 +1,23 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": "public/build",
+    "ignore": [
+      "firebase.json",
+      "**/package-lock.json",
+      "**/public/**",
+      "**/package.json",
+      "**/README.md",
+      "**/yarn.lock",
+      "**/src/**",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}
